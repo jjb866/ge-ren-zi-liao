@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Apple 风格可编辑个人简历模板">
+  <title>蒋继保｜个人简历</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav"><a class="logo" href="#top">蒋继保</a><nav><a href="#about">关于</a><a href="#experience">经历</a><a href="#work">作品</a><a href="#contact">联系</a></nav><button id="themeBtn" aria-label="切换深浅模式">◐</button></header>
+  <button class="edit-button" id="editButton">编辑内容</button>
+  <aside class="editor" id="editor"><div><strong>编辑简历</strong><button id="closeEditor">×</button></div><p>开启后，直接点击页面文字修改。内容会自动保存在本机浏览器。</p><button id="addJob">＋ 添加经历</button><button id="addWork">＋ 添加作品</button><button id="exportBtn">导出内容</button><button id="importBtn">导入内容</button><button id="printBtn">打印 / PDF</button><button id="resetBtn" class="subtle">恢复示例</button><input type="file" id="fileInput" accept="application/json" hidden></aside>
+
+  <main id="resume">
+    <section class="hero" id="top">
+      <div class="aurora a1"></div><div class="aurora a2"></div>
+      <p class="kicker reveal" contenteditable="true">你好，我是</p>
+      <h1 class="reveal" contenteditable="true">蒋继保。</h1>
+      <h2 class="reveal" contenteditable="true">懂业务，也懂 AI 与增长。</h2>
+      <p class="intro reveal" contenteditable="true">电力行业营销管理者、AI 应用与自动化实践者。具备财会专业基础、销售管理经验与数字产品开发能力，致力于用 AI、网站、小程序和自动化工作流推动企业增长。</p>
+      <div class="hero-links reveal"><a class="blue-link" href="#work">查看我的作品 <span>›</span></a><a class="blue-link" href="#contact">和我聊聊 <span>›</span></a></div>
+      <div class="device-stage reveal">
+        <div class="identity-card">
+          <div class="profile-mark">JJ</div>
+          <strong contenteditable="true">懂经营。<br>更懂落地。</strong>
+          <small contenteditable="true">让 AI 真正服务业务与增长。</small>
+        </div>
+        <div class="device">
+          <div class="screen"><img src="assets/portrait.webp" alt="蒋继保个人头像"></div>
+        </div>
+        <div class="glass-card card-one"><small>职业经验</small><strong contenteditable="true">18+ 年</strong></div>
+        <div class="glass-card card-two"><small>核心方向</small><strong contenteditable="true">AI × 业务</strong></div>
+      </div>
+    </section>
+
+    <section class="statement" id="about"><p class="eyebrow">ABOUT</p><h2 class="reveal" contenteditable="true">不追逐概念。<br>只让技术<span>产生结果。</span></h2><div class="about-grid"><p class="lead reveal" contenteditable="true">从会计到销售管理，再到 AI 与数字化实践，我始终站在业务一线解决真实问题。</p><div class="reveal"><p contenteditable="true">拥有电力设备行业长期从业经验，曾任销售部经理及企业经理，较早开展电力设备互联网营销。熟悉企业经营、销售管理、客户沟通与数字化推广。</p><p contenteditable="true">熟练使用国内外 AI 智能体与开发工具，可独立开发网站、小程序、APP，完成视频剪辑与 AI 视频制作，并已搭建 OPC 一人公司智能体、工作流自动化及 1688 工作自动化方案。</p></div></div></section>
+
+    <section class="metrics"><article><strong contenteditable="true">18+</strong><p contenteditable="true">年职业经验</p></article><article><strong contenteditable="true">11+</strong><p contenteditable="true">年企业管理经历</p></article><article><strong contenteditable="true">4 类</strong><p contenteditable="true">数字产品开发能力</p></article><article><strong contenteditable="true">CET-4</strong><p contenteditable="true">英语能力</p></article></section>
+
+    <section class="content-section" id="experience"><div class="section-heading"><p class="eyebrow">EXPERIENCE</p><h2 contenteditable="true">从专业积累，<br><span>到数字化创新。</span></h2></div><div class="job-list" id="jobList">
+      <article class="job editable-item reveal"><div><time contenteditable="true">2015.04 — 2026.07</time><h3 contenteditable="true">经理</h3><p contenteditable="true">江苏亿邦电力设备有限公司 · 徐州</p></div><div><p contenteditable="true">负责企业经营管理、互联网营销与数字化建设，持续探索 AI 在获客、内容生产、产品展示及工作流程中的实际应用。</p><ul><li contenteditable="true">电力设备互联网营销与企业管理</li><li contenteditable="true">公司官网、小程序及数字产品建设</li><li contenteditable="true">AI 智能体、视频与自动化工作流实践</li></ul></div><button class="delete" aria-label="删除">×</button></article>
+      <article class="job editable-item reveal"><div><time contenteditable="true">2011.02 — 2015.03</time><h3 contenteditable="true">销售部经理</h3><p contenteditable="true">江苏万鑫电力设备有限公司 · 徐州</p></div><div><p contenteditable="true">负责销售团队与市场业务，发挥较早开展电力设备互联网营销的经验，推动传统销售与线上推广相结合。</p><ul><li contenteditable="true">销售管理与客户开发</li><li contenteditable="true">电力设备互联网营销</li><li contenteditable="true">团队协作与业务推进</li></ul></div><button class="delete" aria-label="删除">×</button></article>
++      <article class="job editable-item reveal"><div><time contenteditable="true">2007.12 — 2011.01</time><h3 contenteditable="true">会计</h3><p contenteditable="true">南京交通工程公司 · 南京</p></div><div><p contenteditable="true">从事企业财务与会计相关工作，建立扎实的财务基础、数据意识与经营分析能力。</p><ul><li contenteditable="true">会计核算与财务管理</li><li contenteditable="true">数据整理与办公软件应用</li></ul></div><button class="delete" aria-label="删除">×</button></article>
+    </div></section>
+
+    <section class="education-section"><div class="section-heading"><p class="eyebrow">EDUCATION & CREDENTIALS</p><h2 contenteditable="true">专业基础，<br><span>持续学习。</span></h2></div><div class="education-grid"><article class="reveal"><time contenteditable="true">2009.02 — 2011.07</time><h3 contenteditable="true">中国矿业大学</h3><p contenteditable="true">会计学 · 本科 · 曾任班长</p></article><article class="reveal"><time contenteditable="true">2005.09 — 2008.06</time><h3 contenteditable="true">南京交通职业技术学院</h3><p contenteditable="true">涉外会计 · 曾任学生会成员</p></article><article class="reveal"><time contenteditable="true">专业资质</time><h3 contenteditable="true">会计证 · 助理会计师</h3><p contenteditable="true">大学英语四级 · 熟练使用办公与 AI 工具</p></article></div></section>
+
+    <section class="work-section" id="work"><div class="section-heading center"><p class="eyebrow">SELECTED WORK</p><h2 contenteditable="true">作品会说话。</h2><p contenteditable="true">围绕企业经营、互联网营销与 AI 应用，持续把想法转化为可使用的数字产品和自动化方案。</p></div><div class="work-grid" id="workGrid">
+      <article class="work-card editable-item reveal"><div class="work-copy"><span contenteditable="true">WEBSITE · 企业数字化</span><h3 contenteditable="true">亿邦电力官方网站</h3><p contenteditable="true">面向电力设备客户建设企业官方网站，承载品牌展示、产品介绍与互联网营销。网址：www.ybdlsb.cn</p><a href="https://www.ybdlsb.cn" target="_blank" rel="noopener">访问官网 <b>›</b></a></div><div class="visual yibang-preview"><div class="browser-preview"><div class="browser-bar"><i></i><i></i><i></i><span>www.ybdlsb.cn</span></div><img class="site-fullshot" src="assets/yibang-official-site-screenshot.webp" alt="江苏亿邦电力设备有限公司官网首页截图"></div></div><button class="delete" aria-label="删除">×</button></article>
+      <article class="work-card editable-item reveal"><div class="work-copy"><span contenteditable="true">MINI PROGRAM · 产品开发</span><h3 contenteditable="true">公司小程序 · 电力E帮</h3><p contenteditable="true">集配电报价、选型计算、参数查询、语音智算、行业行情与常用工具于一体，为电力行业客户提供移动端智能服务。</p><a contenteditable="true" href="#">查看案例 <b>›</b></a></div><div class="visual mini-program-preview"><div class="mini-phone"><img src="assets/e-bang-mini-program.webp" alt="电力E帮公司小程序首页截图"></div><span class="mini-caption">电力E帮 · 智能报价与选型工具</span></div><button class="delete" aria-label="删除">×</button></article>
+      <article class="work-card editable-item reveal"><div class="work-copy"><span contenteditable="true">CITY SERVICE · 产品开发</span><h3 contenteditable="true">城市小程序 · 彭城寻味</h3><p contenteditable="true">围绕徐州本地美食、城市文化与生活服务打造内容入口，连接特色餐饮、城市地图、文化体验与本地用户。</p><a contenteditable="true" href="#">查看案例 <b>›</b></a></div><div class="visual mini-program-preview food-preview"><div class="mini-phone food-phone"><img src="assets/pengcheng-food-mini-program.webp" alt="彭城寻味城市小程序首页截图"></div><span class="mini-caption food-caption">彭城寻味 · 徐州城市美食地图</span></div><button class="delete" aria-label="删除">×</button></article>
+      <article class="work-card editable-item reveal"><div class="work-copy"><span contenteditable="true">AI AUTOMATION · 工作流</span><h3 contenteditable="true">一人公司智能体与自动化</h3><p contenteditable="true">搭建 OPC 一人公司智能体、工作流自动化和 1688 工作自动化，将 AI 工具转化为可执行的业务流程。</p><a contenteditable="true" href="#">了解方案 <b>›</b></a></div><div class="visual graphite"><div class="flow"><b>AI</b><i></i><b>FLOW</b><i></i><b>RESULT</b></div></div><button class="delete" aria-label="删除">×</button></article>
+    </div></section>
+
+    <section class="capabilities"><div><p class="eyebrow">CAPABILITIES</p><h2 contenteditable="true">懂工具，<br>更懂业务。</h2></div><div class="cap-list"><article><span>01</span><h3 contenteditable="true">企业经营与销售</h3><p contenteditable="true">管理、客户、市场与增长</p></article><article><span>02</span><h3 contenteditable="true">AI 智能体应用</h3><p contenteditable="true">OpenClaw、Codex、Claude Code、Cursor</p></article><article><span>03</span><h3 contenteditable="true">数字产品开发</h3><p contenteditable="true">网站、小程序、APP 与自动化工作流</p></article><article><span>04</span><h3 contenteditable="true">内容与视频生产</h3><p contenteditable="true">视频剪辑、AI 视频与互联网营销</p></article></div></section>
+
+    <section class="contact" id="contact"><p class="eyebrow">ONE MORE THING</p><h2 contenteditable="true">让 AI 落地，<br>让业务向前。</h2><a contenteditable="true" href="mailto:273223697@qq.com">273223697@qq.com <span>↗</span></a><div class="contact-details"><p contenteditable="true">江苏徐州 · 中国</p><p contenteditable="true">电话：请补充</p><p contenteditable="true">本科 · 会计学</p></div></section>
+    <footer><span>© <b id="year"></b> <i contenteditable="true">蒋继保</i></span><span contenteditable="true">Designed with clarity and care.</span></footer>
+  </main><div class="toast" id="toast"></div><script src="app.js"></script>
+</body></html>
